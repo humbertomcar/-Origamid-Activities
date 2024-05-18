@@ -1,0 +1,132 @@
+body {
+    font-family: Arial;
+    background: #f7f7f7;
+    margin: 0px;
+}
+
+.gridTotal {
+    display: grid;
+    gap: 60px;
+    justify-content: center;
+}
+
+h1 {
+    justify-self: center;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.logo {
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.itemsNav {
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.itemsNav:hover{
+    background-color: #505050;
+}
+
+.navbar a {
+    color: #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.vejaMais {
+    color: #fff;
+    background-color: #ee2211;
+    padding: 14px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.item1 {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+.barrinha {
+    position: absolute;
+    right: -25px;
+    height: 3px;
+    max-width: 50px;
+    background-color: #ee2211;
+    z-index: 1;
+}
+.vantagens {
+    font-size: 64px;
+    text-align: right;
+    color: #c6c6c6;
+    align-self: center;
+    padding-right: 20px;
+}
+
+.qualidades {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.qualidade-itens {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 15px;
+    row-gap: 5px;
+}
+
+.qualidade-itens img {
+    columns: 1;
+}
+
+.qualidade-itens p, h3 {
+    grid-column: 2;
+    margin: 5px;
+}
+
+.rodape {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
